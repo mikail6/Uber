@@ -1,0 +1,283 @@
+@media ( max-width: 1200px )
+	.header
+		.menu__link
+			font-size: 12px
+	
+	.header .call__button
+		padding: 4px 5px
+
+	.header .request__heading
+		font-size: 40px
+
+	.header .request__subheading
+		font-size: 25px
+
+	.header__request
+		padding: 130px 0 70px
+
+	.header .request__button
+		margin-top: 50px
+
+	.mobile__item
+		margin: 20px 0 20px
+		width: 280px
+
+	.car__white
+		padding: 200px 0 30px
+	
+	.car__img
+		width: 70%
+
+	.footer__appstore
+		display: flex
+		flex-direction: column
+
+	.appstore__link
+		margin-bottom: 10px
+	
+	.map__wrapper
+		min-height: 500px
+
+	.footer
+		&__social
+			width: 30%
+		&__links
+			width: 40%
+		&__appstore
+			width: 30%
+
+@media ( max-width: 991.98px )
+	.header .menu__item
+		padding: 0 10px
+	
+	.call__logo
+		width: 100%
+
+	.header .call__number
+		font-size: 20px
+
+	.header .call__button
+		font-size: 10px
+
+	.header .row
+		align-items: center
+
+	.header .request__text
+		font-size: 14px
+		line-height: 20px
+
+	.benefits__item
+		flex-direction: column
+		align-items: center
+
+	.benefits__text
+		padding-right: 0
+		margin-top: 10px
+
+	.benefits__heading
+		text-align: center
+
+	.benefits__desc
+		text-align: center
+
+	.mobile__item
+		width: 220px
+
+	.mobile__text
+		font-size: 15px
+
+	.car__white
+		padding: 60px 0 30px
+
+	.conditions .section__title
+		padding: 40px 0 37px
+
+	.conditions__header
+		font-size: 18px
+	
+	.conditions__item
+		font-size: 14px
+
+	.conditions_desc
+		font-size: 14px
+
+	.social__item
+		width: 30px
+		height: 30px
+		font-size: 15px
+		margin-right: 12px
+	
+	.social__menu
+		padding-left: 0
+
+	.first__link
+		font-size: 14px
+
+	.second__link
+		font-size: 11px
+
+	.footer
+		&__social
+			width: 25%
+		&__links
+			width: 50%
+		&__appstore
+			width: 25%
+
+	.appstore
+		text-align: center
+
+@media ( max-width: 767.98px )
+	.header__nav
+		position: fixed
+		width: 100%
+		z-index: 10
+	.header__menu
+		position: fixed
+		flex-direction: column
+		height: 100Vh
+		width: 50%
+		background-color: rgba(0, 0, 0, 0.8)
+		top: 0
+		left: -100%
+		padding: 10px
+		justify-content: center
+		z-index: 1
+		transition: .6s all
+		.menu__item
+			border: none
+			.menu__link
+				font-size: 16px
+				padding: 30px 0
+				display: block
+	.menu_active
+			left: 0
+	.hamburger
+		display: flex
+		flex-direction: column
+		align-items: flex-end
+		justify-content: space-between
+		padding: 0 10px
+		height: 20px
+		position: relative
+		span
+			height: 2px
+			width: 30px
+			background-color: #fff
+			display: block
+			transition: .6s all
+		&_active
+			span
+				&:nth-child(1)
+					transform: rotate(45deg)
+					position: absolute
+					top: 10px
+				&:nth-child(2)
+					opacity: 0
+					position: absolute
+					top: 10px
+				&:nth-child(3)
+					transform: rotate(-45deg)
+					position: absolute
+					top: 10px
+	.header__call
+		margin-top: 40px
+	.call__logo
+		padding-left: 16px
+	.call__text
+		display: none
+	.call__number_mobile
+		display: block
+		text-align: center
+		font-size: 12px
+	.display_none
+		display: none
+	.header .call__button
+		margin: 8px auto 0
+		display: block
+		padding: 6px 10px
+	.header .request__heading
+		font-size: 30px
+		font-weight: 900
+		padding: 0 42px
+	.header .request__subheading
+		font-size: 20px
+		margin-top: 30px
+	.request__text
+		display: none
+	.header__request
+		padding: 175px 0 34px
+	.section__header
+		font-size: 16px
+	.benefits__heading
+		text-align: left
+	.benefits__desc
+		text-align: left
+	.benefits__text
+		padding-top: 24px
+	.mobile__item
+		margin: 0
+	.mobile__item
+		width: 100%
+		margin-top: 30px
+	.car .section__header
+		display: none
+	.car .section__subheader
+		display: none
+	.car__img
+		width: 100%
+		position: static
+		display: block
+		margin: 0 auto
+		transform: none
+		margin-top: 36px
+	.car__dark
+		padding: 10px 0
+		min-height: 0
+		text-align: center
+	.car__white
+		display: none
+	.conditions__item
+		padding-left: 0
+	.conditions__item::before
+		left: 0
+	.map__wrapper
+		min-height: 300px
+	.footer__wrapper
+		display: flex
+		flex-direction: column
+		padding: 51px 10px
+	.footer__links
+		order: 0
+		font-size: 14px
+	.footer__social
+		order: 1
+	.footer__appstore
+		order: 2
+	.footer
+		&__social
+			width: 100%
+		&__links
+			width: 100%
+		&__appstore
+			width: 100%
+	.second__menu
+		padding: 0px 30px
+		flex-wrap: wrap
+	.footer__appstore
+		flex-direction: row
+		justify-content: space-between
+		margin-top: 16px
+	.social__menu
+		justify-content: center
+		margin-top: 16px
+	.map-divider
+		width: 255px
+		height: 6px
+	.car__text
+		display: block
+		font-size: 17px
+		font-weight: 300
+		color: #fff
+		padding: 23px 25px
+	

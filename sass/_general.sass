@@ -1,0 +1,320 @@
+a
+	text-decoration: none
+	color: #fff
+
+.call__text_mobile
+	display: none
+
+.header
+	&__nav
+		background: #212121
+		padding: 10px 0
+	&__menu
+		display: flex
+		justify-content: space-between
+		margin-bottom: 0
+		padding-left: 0
+	.menu
+		&__item
+			border-right: 2px dotted #000
+			padding: 0 30px
+			list-style-type: none
+			&:last-child
+				border: none
+		&__link
+			text-decoration: none
+			font-weight: 300
+			font-size: 15px
+
+
+.header
+	&__call
+		background-color: rgba(0, 0, 0, 0.6)
+		padding: 17px 0
+		color: #fff
+		position: absolute
+		width: 100%
+	.call
+		&__text
+			text-align: right
+			font-weight: 300
+			font-size: 12px
+		&__number
+			font-weight: 400
+			font-size: 22px
+			display: block
+		&__button
+			background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+			border-radius: 4px
+			color: #fff
+			border: none
+			font-size: 14px
+			padding: 19px 22px
+			text-transform: uppercase
+			text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+
+.header
+	&__request
+		background: url('../img/uber_bg.jpg') center center/cover no-repeat
+		padding: 142px 0 148px
+		text-align: center
+	.request
+		&__heading
+			font-weight: 900
+			font-size: 60px
+		&__subheading
+			font-weight: 700
+			font-size: 36px
+		&__text
+			font-size: 18px
+			line-height: 24px
+			margin-top: 16px
+		&__button
+			background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+			border-radius: 4px
+			color: #fff
+			border: none
+			font-size: 14px
+			padding: 19px 22px
+			text-transform: uppercase
+			text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+			margin-top: 115px
+
+.section
+	&__title
+		text-align: center
+		padding-top: 18px
+	&__name
+		font-size: 11px
+		background: #000
+		text-transform: uppercase
+		padding: 8px 12px
+		display: inline
+		&_white
+			background-color: #fff
+			color: #000
+	&__header
+		color: #222
+		font-size: 38px
+		font-weight: 700
+		margin-top: 33px
+		text-transform: uppercase
+		&_white
+			color: #fff
+	&__subheader
+		color: #222
+		font-size: 17px
+		&_white
+			color: #fff
+
+.benefits
+	&__item
+		display: flex
+		justify-content: center
+		align-items: flex-start
+		padding: 13px 0
+	&__img
+		background: #1EACC7
+		border-radius: 50%
+		min-width: 116px
+		min-height: 116px
+		display: flex
+		justify-content: center
+		align-items: center
+		margin: 0 25px
+	&__text
+		padding-right: 30px
+	&__heading
+		color: #1EACC7
+		font-size: 17px
+	&__desc
+		color: #202020
+		font-size: 15px
+		font-weight: 300
+
+.mobile
+	background: url('/img/mobile_bg.jpg') center center/cover no-repeat
+	padding: 46px 0 80px
+	&__item
+		background: url('/img/mobile_1.jpg') center center/cover no-repeat
+		margin: 30px 33px 0 33px
+		padding: 88px 0 34px 0
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		align-items: center
+		height: 280px
+		width: 320px
+	&__text
+		font-size: 24px
+		text-transform: uppercase
+		text-align: center
+	&__plus
+		width: 29px
+		height: 29px
+		background-color: #000
+		border-radius: 50%
+		display: flex
+		align-items: center
+		justify-content: center
+		position: relative
+		&:before
+			content: ''
+			width: 2px
+			height: 50%
+			background: #1EACC7
+			display: block
+			position: absolute
+		&:after
+			content: ''
+			width: 50%
+			height: 2px
+			background: #1EACC7
+			display: block
+
+
+.car
+	&__dark
+		padding: 57px 0
+		background-color: #070716
+		min-height: 500px
+		position: relative
+	&__img
+		position: absolute
+		left: 50%
+		transform: translateX(-50%)
+		top: 50%
+	&__white
+		min-height: 150px
+		background: url('/img/mobile_bg.jpg') center center/cover no-repeat
+		color: #222
+		text-align: center
+		padding: 250px 0 140px
+		font-weight: 300
+		font-size: 17px
+	&__text
+		display: none
+
+.conditions
+	padding-bottom: 16px
+	.section__title
+		padding: 68px 0 37px
+	&__header
+		color: #1CA8C3
+		font-size: 22px
+		margin-bottom: 16px
+		&_red
+			color: #FF5656
+	&__items
+		margin-bottom: 61px
+	&__menu
+		font-weight: 300
+		font-size: 17px
+		position: relative
+	&__item
+		color: #222222
+		list-style-type: none
+		padding-left: 20px
+		margin-bottom: 10px
+		&::before
+			content: ''
+			width: 21px
+			height: 20px
+			display: block
+			background: url('/img/blue.png') center center/cover no-repeat
+			position: absolute
+			left: 15px
+		&_red
+			&::before
+				background: url('/img/red.png') center center/cover no-repeat
+	&_desc
+		color: #1CA8C3
+
+.map
+	background-color: #080816
+	position: relative
+	&__wrapper
+		background: url('/img/world_bg.jpg') center center/cover no-repeat
+		min-height: 717px
+		padding: 46px 0
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		align-items: center
+	&__link
+		font-size: 15px
+		color: #1FBAD6
+		text-transform: uppercase
+	&__divider
+		width: 301px
+		height: 7px
+		background: #1FBAD6
+		left: 50%
+		bottom: -12px
+		transform: translateX(-50%)
+		position: absolute
+
+.footer
+		&__wrapper
+			text-transform: uppercase
+			font-weight: 300
+			display: flex
+			justify-content: space-between
+			align-items: center
+			padding: 50px 25px
+		&__social
+			width: 33%
+		&__links
+			width: 33%
+		&__appstore
+			width: 33%
+			text-align: right
+
+.social
+		&__menu
+			display: flex
+		&__item
+			width: 35px
+			height: 35px
+			background-color: #000
+			border-radius: 50%
+			display: flex
+			align-items: center
+			justify-content: center
+			font-size: 20px
+			margin-right: 6px
+
+.footer
+	&__links
+		text-align: center
+.links
+	&__language
+		color: #1FBAD6
+		font-size: 11px
+		font-weight: 400
+
+
+.first
+	&__menu
+		display: flex
+		justify-content: center
+		padding: 0 10px
+		justify-content: space-between
+	&__item
+		list-style-type: none
+	&__link
+		color: #070716
+		font-size: 15px
+			
+
+.second
+	&__menu
+		display: flex
+		justify-content: space-between
+		padding-left: 0
+	&__item
+		list-style-type: none
+	&__link
+		font-weight: 300
+		font-size: 13px
+		color: #999999
